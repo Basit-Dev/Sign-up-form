@@ -1,1 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+body {
+    background-color: #ff7979;
+    height: 100vh; 
+    background-image: url("./images/bg-intro-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* DONTS ARE COMMENTED OUT */
+.container {
+  /* height: 100vh;
+  width: 100vw; */
+  border:  solid blue;
+ 
+}
+main {
+    border: solid greenyellow;
+    /* height:  100%; */
+    
+}
+.test {
+    /* display: flex;
+    position: relative; */
+}
+/* .section_one {
+  width: 525px;
+  height: 220px;
+
+} */
+.section_two {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 0 0 rgba(0,0,0,0.15);
+  padding: 3rem;
+  /* width: 540px; */
+}
+.section_one h1 {
+  font-size: 5em;
+  color: #ffffff;
+  letter-spacing: -0.52px;
+  line-height: 55px;
+}
+.section_one p {
+  font-size: 1.6em;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-top: 2em;
+}
+.trial_header {
+  background: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  margin: 3em 0 2rem 0;
+  padding: 1.5rem;
+  width: 540px;
+  box-shadow: 0 8px 0 0 rgba(0,0,0,0.15);
+  font-size: 1.5em;
+  color: #ffffff;
+  letter-spacing: 0.27px;
+  text-align: center;
+  line-height: 26px;
+}
+.trial_cta {
+  background: #38cc8b;
+  box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.09);
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 15px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  line-height: 26px;
+}
+.terms {
+  font-size: 11px;
+  color: #bab7d4;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 26px;
+}
+.terms span {
+  color: #ff7979;
+}
+form input {
+   margin-bottom: 2rem;
+    padding: 1.5rem 2rem;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 600;
+  letter-spacing: 0.4px;
+  border-radius: 5px;
+  border-color: #eaeaea;
+  border-style: solid;
+  border-width: 2pt;
+   
+
+}
+@media only screen and (max-width: 790px) {
+  .container {
+      /* height: 100%; */
+      /* width: 100%; */
+    padding: 4em;
+    background-image: url("./images/bg-intro-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ff7979;
+  }
+  /* main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+  section {
+    margin: 0;
+  }
+  .section_one {
+    /* width: 100%; */
+    margin-right: 0;
+    text-align: center;
+  }
+  .section_two {
+      /* width: 100%; */
+  }
+  .trial_header {
+    padding: 1.5em 5em 1.5em 5em;
+  }
+}
